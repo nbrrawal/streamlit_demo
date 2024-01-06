@@ -21,7 +21,7 @@ user_count = user_count+1
 
 # Streamlit app
 
-st.title(" Real clock Demo 1")
+st.title(" Real Time clock Demo 1")
 st.divider()
 st.write("Delhi time Now : ")
 time_container = st.empty()
