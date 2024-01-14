@@ -16,8 +16,8 @@ AUS = pytz.timezone("Australia/Sydney")
 # Display the current time
 
 
-st.header("World Clocks")
-#markdown('<h1> <center>World Clocks</h1>', unsafe_allow_html=True)
+#st.header("World Clocks")
+st.markdown('<h1> <center>World Clocks</h1>', unsafe_allow_html=True)
 
 current_time = datetime.now().strftime("%H:%M:%S")
 col1, col2, col3 = st.columns(3)
