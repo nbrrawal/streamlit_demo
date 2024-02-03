@@ -1,3 +1,6 @@
+###################################################
+# World clock demo using Streamlit
+###################################################
 import streamlit as st
 import time
 import pytz
@@ -13,10 +16,6 @@ RUS = pytz.timezone("Europe/Moscow")
 SGP = pytz.timezone("Asia/Singapore")
 AUS = pytz.timezone("Australia/Sydney")
 
-# Display the current time
-
-
-#st.header("World Clocks")
 st.markdown('<h1> <center>World Clocks</h1>', unsafe_allow_html=True)
 
 current_time = datetime.now().strftime("%H:%M:%S")
